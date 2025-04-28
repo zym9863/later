@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { FiPlus, FiBookOpen, FiClock, FiInbox } from 'react-icons/fi';
+import { FiPlus, FiBookOpen, FiInbox } from 'react-icons/fi';
 import { TimeLogEntry as TimeLogEntryType } from '../types';
 import { TimeLogEntry } from './TimeLogEntry';
 import { getAllEntries, deleteEntry } from '../utils/storage';
